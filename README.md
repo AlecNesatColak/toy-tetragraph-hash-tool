@@ -44,7 +44,7 @@ Toy Tetragraph Hash is a text transformation tool built using FastAPI for the ba
 
 4. **Run the FastAPI server:**
     ```sh
-    uvicorn main:app --reload
+    uvicorn app:app --reload
     ```
 
 ### Frontend
