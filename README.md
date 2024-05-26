@@ -39,7 +39,7 @@ Toy Tetragraph Hash is a text transformation tool built using FastAPI for the ba
 
 3. **Install the dependencies:**
     ```sh
-    pip install -r requirements.txt
+    pip install -r requirements.txt (pip3 install -r requirements.txt) if python3
     ```
 
 4. **Run the FastAPI server:**
