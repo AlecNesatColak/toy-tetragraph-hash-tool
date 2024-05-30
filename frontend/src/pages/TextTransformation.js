@@ -45,7 +45,7 @@ function TextTransformation() {
 
   return (
     <div className="container">
-      <h1>Text Transformation Tool</h1>
+      <h1>Toy TetraGraph Hash Calculator</h1>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="inputText">Enter Text:</label>
