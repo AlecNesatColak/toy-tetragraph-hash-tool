@@ -14,9 +14,12 @@ function TextTransformation() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:8000/transform/", {
-        text: inputText,
-      });
+      const response = await axios.post(
+        "https://toy-tetragraph-hash-tool-backend.vercel.app/",
+        {
+          text: inputText,
+        }
+      );
       const { steps, final_running_total } = response.data;
       setSteps(steps);
       setFinalResult(final_running_total);
