@@ -15,7 +15,7 @@ function TextTransformation() {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "https://toy-tetragraph-tool-backend.onrender.com/",
+        "https://toy-tetragraph-tool-backend.onrender.com/transform/",
         {
           text: inputText,
         }
